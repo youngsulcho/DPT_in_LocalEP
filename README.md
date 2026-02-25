@@ -2,11 +2,11 @@
 Codes and data for the paper "Discontinuous transition in explosive percolation via local suppression"
 ## Fig3. (a) ##
 ** Data **
-'SuccessiveRewire_z4_n7_Pinf'  : left line
-'filter_SuccessiveRewire_z4_n15_Pinf' : right line
-'MinBranchDet_z4_n7_Pinf'  : squares
-'MinBranchDet_z4_n15_Pinf' : circles
-'MinBranchDet_z4_theory' : dashed line
+'SuccessiveRewire_z4_n7_Pinf' using 1:2 : left line
+'filter_SuccessiveRewire_z4_n15_Pinf' using 1:2 : right line
+'MinBranchDet_z4_n7_Pinf' using 1:2 : squares
+'MinBranchDet_z4_n15_Pinf' using 1:2 : circles
+'MinBranchDet_z4_theory' using 1:2 : dashed line
 
 ** Code **
 SuccessiveRewire.c was used to generate: 'SuccessiveRewire_z4_n7_Pinf' and 'filter_SuccessiveRewire_z4_n15_Pinf'.
@@ -14,8 +14,8 @@ MinBranchDet.c was used to generate: 'MinBranchDet_z4_n7_Pinf' and 'MinBranchDet
 
 ## Fig3. (b) ##
 ** Data **
-'SuccessiveRewire_z4_n9_fracRewire.bin.1.3' : squares
-'SuccessiveRewire_z4_n15_fracRewire.bin.1.3' : circles
+'SuccessiveRewire_z4_n9_fracRewire.bin.1.3' using 1:2 : squares
+'SuccessiveRewire_z4_n15_fracRewire.bin.1.3' using 1:2 : circles
 
 ** Code ** 
 SuccessiveRewire.c was used to generate these data files.
@@ -53,10 +53,10 @@ GlobalRewire_SuccessiveBipartite_nNotordered.c was used to generate these data f
 
 ## Fig7. (a) ##
 ** Data **
-'LocalRewire_SuccessiveBipartite_N1000_z3_T0.70_G' : line over squares
-'filter_GlobalRewire_SuccessiveBipartite_N1000_z3_G' : squares
-'LocalRewire_SuccessiveBipartite_N16000_z3_T0.70_G' : line over cirles
-'filter_GlobalRewire_SuccessiveBipartite_N16000_z3_G' : circles
+'LocalRewire_SuccessiveBipartite_N1000_z3_T0.70_G' using 1:2 : line over squares
+'filter_GlobalRewire_SuccessiveBipartite_N1000_z3_G' using 1:2 : squares
+'LocalRewire_SuccessiveBipartite_N16000_z3_T0.70_G' using 1:2 : line over cirles
+'filter_GlobalRewire_SuccessiveBipartite_N16000_z3_G' using 1:2 : circles
 'RPQ_Theory2_z3' using 1:($2+$3)/2 : dashed line
 
 ** Code **
