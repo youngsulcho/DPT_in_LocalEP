@@ -1,6 +1,6 @@
 # DPT_in_LocalEP
 Codes and data for the paper "Discontinuous transition in explosive percolation via local suppression"
-https://doi.org/10.1103/lbyt-jntd
+
 ## Fig3. (a) ##
 ** Data **
 'SuccessiveRewire_z4_n7_Pinf' using 1:2 : left line
